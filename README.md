@@ -9,7 +9,9 @@ Clean stylelint config.
 ## Usage
 
 1. Install the required packages:
+
    ```
    npm i -D stylelint stylelint-config-clean
    ```
+
 2. Add `extends: 'stylelint-config-clean'` to your `.stylelintrc`.
