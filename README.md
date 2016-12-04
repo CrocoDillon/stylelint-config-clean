@@ -1,7 +1,8 @@
 # stylelint-config-clean
 
-[![NPM Version](https://img.shields.io/npm/v/stylelint-config-clean.svg?style=flat)](https://npmjs.org/package/stylelint-config-clean)
-[![devDependency Status](https://david-dm.org/CrocoDillon/stylelint-config-clean/dev-status.svg)](https://david-dm.org/CrocoDillon/stylelint-config-clean#info=devDependencies)
+[![NPM Version](https://img.shields.io/npm/v/stylelint-config-clean.svg)](https://npmjs.org/package/stylelint-config-clean)
+[![devDependencies Status](https://david-dm.org/CrocoDillon/stylelint-config-clean/dev-status.svg)](https://david-dm.org/CrocoDillon/stylelint-config-clean?type=dev)
+[![peerDependencies Status](https://david-dm.org/CrocoDillon/stylelint-config-clean/peer-status.svg)](https://david-dm.org/CrocoDillon/stylelint-config-clean?type=peer)
 
 Clean stylelint config.
 

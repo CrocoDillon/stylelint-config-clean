@@ -24,8 +24,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^3.11.1",
-    "eslint-config-clean": "^1.0.0",
-    "stylelint": "^7.6.0"
+    "eslint-config-clean": "^1.0.0"
   },
   "peerDependencies": {
     "stylelint": "^7.6.0"
