@@ -20,6 +20,8 @@ module.exports = {
 
     // specify whether or not quotation marks should be used around font family names
     'font-family-name-quotes': 'always-where-recommended',
+    // disallow duplicate font family names
+    'font-family-no-duplicate-names': true,
 
     // Font Weight
     // http://stylelint.io/user-guide/rules/#font-weight
@@ -58,6 +60,8 @@ module.exports = {
     'function-url-no-scheme-relative': true,
     // require or disallow quotes for urls
     'function-url-quotes': 'always',
+    // specify a whitelist of allowed url schemes
+    'function-url-scheme-whitelist': null,
     // specify a whitelist of allowed functions
     'function-whitelist': null,
     // require or disallow whitespace after functions
@@ -124,6 +128,8 @@ module.exports = {
     'value-list-comma-space-after': 'always-single-line',
     // require a single space or disallow whitespace before the commas of value lists
     'value-list-comma-space-before': 'never',
+    // limit the number of adjacent empty lines within value lists
+    'value-list-max-empty-lines': 0,
 
     // Custom Property
     // http://stylelint.io/user-guide/rules/#custom-property
@@ -194,6 +200,8 @@ module.exports = {
     'declaration-block-no-duplicate-properties': true,
     // disallow property values that are ignored due to another property value in the same rule
     'declaration-block-no-ignored-properties': true,
+    // disallow longhand properties that can be combined into one shorthand property
+    'declaration-block-no-redundant-longhand-properties': true,
     // disallow shorthand properties that override related longhand properties within declaration blocks
     'declaration-block-no-shorthand-property-overrides': true,
     // specify the order of properties within declaration blocks
@@ -258,6 +266,8 @@ module.exports = {
     'selector-combinator-space-after': 'always',
     // require a single space or disallow whitespace before the combinators of selectors
     'selector-combinator-space-before': 'always',
+    // disallow non-space characters for descendant combinators of selectors
+    'selector-descendant-combinator-no-non-space': true,
     // specify a pattern for id selectors
     'selector-id-pattern': null,
     // limit the number of compound selectors in a selector
@@ -270,6 +280,8 @@ module.exports = {
     'selector-no-attribute': null,
     // disallow combinators in selectors
     'selector-no-combinator': null,
+    // disallow empty selectors
+    'selector-no-empty': null,
     // disallow id selectors
     'selector-no-id': true,
     // disallow qualifying a selector by type
@@ -338,10 +350,16 @@ module.exports = {
     'media-feature-colon-space-after': 'always',
     // require a single space or disallow whitespace before the colon in media features
     'media-feature-colon-space-before': 'never',
+    // specify a blacklist of disallowed media feature names
+    'media-feature-name-blacklist': [],
     // specify lowercase or uppercase for media feature names
     'media-feature-name-case': 'lower',
+    // disallow unknown media feature names
+    'media-feature-name-no-unknown': true,
     // disallow vendor prefixes for media feature names
     'media-feature-name-no-vendor-prefix': true,
+    // specify a whitelist of allowed media feature names
+    'media-feature-name-whitelist': null,
     // disallow missing punctuation for non-boolean media features
     'media-feature-no-missing-punctuation': true,
     // require a single space or disallow whitespace on the inside of the parentheses within media features
