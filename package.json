@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-config-clean",
+  "version": "1.0.0",
+  "description": "Clean stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrocoDillon/stylelint-config-clean.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "clean"
+  ],
+  "author": "Dillon de Voor (http://crocodillon.com)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/CrocoDillon/stylelint-config-clean/issues"
+  },
+  "homepage": "https://github.com/CrocoDillon/stylelint-config-clean",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-clean": "^1.0.0",
+    "stylelint": "^7.6.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^7.6.0"
+  }
+}
